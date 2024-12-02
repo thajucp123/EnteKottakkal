@@ -1,0 +1,14 @@
+/* Define a local class to scope the styles */
+.customSwiperNavigation {
+    :global(.swiper-button-next) {
+      width: 15px; /* Set the custom width */
+      height: 15px; /* Set the custom height */
+      color: #0056b3; /* Change the arrow color */
+    }
+  
+    :global(.swiper-button-prev) {
+      width: 15px; /* Set the custom width */
+      height: 15px; /* Set the custom height */
+      color: #0056b3; /* Change the arrow color */
+    }
+  }
